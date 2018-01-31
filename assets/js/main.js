@@ -16,6 +16,9 @@
 		items: 1,
 		loop: true,
 		dots: true,
+		autoplay:true,
+		autoplayTimeout:6000,
+		autoplayHoverPause:false,
 	});
 
 	// init Isotope
