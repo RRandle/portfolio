@@ -466,10 +466,10 @@
 				</div>
 				<div class="col-lg-6">
 					<div class="contact-form">
-						<form action="#">
+						<form method="POST" action="https://formspree.io/R.Randle@outlook.com">
 							<div class="form-group">
 								<label for="name">Name <span>*</span></label>
-								<input type="name" class="form-control" id="name">
+								<input type="name" name="name" class="form-control" id="name">
 							</div>
 							<div class="form-group">
 								<label for="email">Email Address <span>*</span></label>
@@ -477,7 +477,7 @@
 							</div>
 							<div class="form-group">
 								<label for="message">Message <span>*</span></label>
-								<textarea class="form-control" id="message" rows="10"></textarea>
+								<textarea name="message" class="form-control" id="message" rows="10"></textarea>
 							</div>
 							<button type="submit" class="btn submit-btn">Contact me</button>
 						</form>
